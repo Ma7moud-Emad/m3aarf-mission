@@ -1,0 +1,238 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Design homepage layout",
+      "description": "Create wireframes for the hero section, navigation bar, and footer with responsive breakpoints",
+      "column": "in_progress"
+    },
+    {
+      "id": "2",
+      "title": "Set up CI/CD pipeline",
+      "description": "Configure GitHub Actions for automated testing and deployment to staging environment",
+      "column": "in_progress"
+    },
+    {
+      "id": "3",
+      "title": "Review authentication flow",
+      "description": "Audit the OAuth2 login flow for security vulnerabilities and edge cases",
+      "column": "done"
+    },
+    {
+      "id": "4",
+      "title": "Deploy landing page",
+      "description": "Push the finalized landing page to production with CDN caching enabled",
+      "column": "done"
+    },
+    {
+      "id": "5",
+      "title": "Create user onboarding",
+      "description": "Build a step-by-step wizard for new users including profile setup and preferences",
+      "column": "in_progress"
+    },
+    {
+      "id": "6",
+      "title": "Integrate payment gateway",
+      "description": "Connect Stripe API for handling subscriptions, one-time payments, and refunds",
+      "column": "in_progress"
+    },
+    {
+      "id": "7",
+      "title": "Code review: API endpoints",
+      "description": "Review all REST endpoints for consistency, error handling, and rate limiting",
+      "column": "review"
+    },
+    {
+      "id": "8",
+      "title": "Set up monitoring",
+      "description": "Configure Datadog dashboards for API latency, error rates, and server health",
+      "column": "in_progress"
+    },
+    {
+      "id": "9",
+      "title": "Write unit tests for utils",
+      "description": "Achieve 90% coverage on utility functions including date formatting and validation helpers",
+      "column": "in_progress"
+    },
+    {
+      "id": "10",
+      "title": "Build notification system",
+      "description": "Implement real-time push notifications using WebSockets with fallback to SSE",
+      "column": "in_progress"
+    },
+    {
+      "id": "11",
+      "title": "Review database schema",
+      "description": "Check table relationships, indexing strategy, and migration scripts for v2 schema",
+      "column": "review"
+    },
+    {
+      "id": "12",
+      "title": "Fix mobile responsive issues",
+      "description": "Resolved layout breaking on screens below 768px in the dashboard and settings pages",
+      "column": "done"
+    },
+    {
+      "id": "13",
+      "title": "Implement dark mode toggle",
+      "description": "Add theme switching with CSS custom properties and persist preference in localStorage",
+      "column": "backlog"
+    },
+    {
+      "id": "14",
+      "title": "Optimize image loading",
+      "description": "Implement lazy loading with blur-up placeholders and WebP format conversion",
+      "column": "backlog"
+    },
+    {
+      "id": "15",
+      "title": "Review accessibility audit",
+      "description": "Address WCAG 2.1 AA findings including color contrast, ARIA labels, and keyboard navigation",
+      "column": "review"
+    },
+    {
+      "id": "16",
+      "title": "Configure error tracking",
+      "description": "Integrated Sentry for frontend error capture with source maps and user context",
+      "column": "done"
+    },
+    {
+      "id": "17",
+      "title": "Design email templates",
+      "description": "Create responsive transactional email templates for welcome, reset password, and invoices",
+      "column": "backlog"
+    },
+    {
+      "id": "19",
+      "title": "Review search indexing",
+      "description": "Evaluate Elasticsearch configuration for relevance scoring and query performance",
+      "column": "review"
+    },
+    {
+      "id": "20",
+      "title": "Launch beta program",
+      "description": "Successfully onboarded 50 beta users with feedback forms and NPS tracking",
+      "column": "done"
+    },
+    {
+      "id": "21",
+      "title": "Set up feature flags",
+      "description": "Implement LaunchDarkly integration for gradual feature rollouts and A/B testing",
+      "column": "backlog"
+    },
+    {
+      "id": "22",
+      "title": "Refactor state management",
+      "description": "Migrate from prop drilling to Zustand store for global UI state and user preferences",
+      "column": "in_progress"
+    },
+    {
+      "id": "23",
+      "title": "Review caching strategy",
+      "description": "Evaluate Redis caching implementation for API responses and session management",
+      "column": "in_progress"
+    },
+    {
+      "id": "24",
+      "title": "Complete API documentation",
+      "description": "Finalized OpenAPI 3.0 spec with examples, schemas, and authentication docs",
+      "column": "done"
+    },
+    {
+      "id": "25",
+      "title": "Build file upload service",
+      "description": "Implement chunked file uploads to S3 with progress tracking and virus scanning",
+      "column": "backlog"
+    },
+    {
+      "id": "26",
+      "title": "Add localization support",
+      "description": "Set up i18next with lazy-loaded language bundles for English, Arabic, and French",
+      "column": "in_progress"
+    },
+    {
+      "id": "27",
+      "title": "Review performance metrics",
+      "description": "Analyze Lighthouse scores and implement recommendations for Core Web Vitals",
+      "column": "review"
+    },
+    {
+      "id": "28",
+      "title": "Migrate to TypeScript",
+      "description": "Successfully converted all 150+ JavaScript files to TypeScript with strict mode",
+      "column": "done"
+    },
+    {
+      "id": "29",
+      "title": "Create component library",
+      "description": "Build a shared Storybook design system with Button, Input, Modal, and Table components",
+      "column": "backlog"
+    },
+    {
+      "id": "30",
+      "title": "Implement rate limiting",
+      "description": "Add token bucket rate limiter middleware for API endpoints with configurable thresholds",
+      "column": "in_progress"
+    },
+    {
+      "id": "31",
+      "title": "Review data migration",
+      "description": "Validate data integrity after migrating 2M user records from MongoDB to PostgreSQL",
+      "column": "review"
+    },
+    {
+      "id": "32",
+      "title": "Ship user profiles v2",
+      "description": "Released enhanced user profiles with avatars, bio, social links, and activity feed",
+      "column": "done"
+    },
+    {
+      "id": "33",
+      "title": "Design settings page",
+      "description": "Create mockups for account settings including security, notifications, and billing tabs",
+      "column": "backlog"
+    },
+    {
+      "id": "34",
+      "title": "Build CSV export feature",
+      "description": "Implement server-side CSV generation for reports with streaming download support",
+      "column": "in_progress"
+    },
+    {
+      "id": "35",
+      "title": "Review third-party deps",
+      "description": "Audit npm packages for vulnerabilities, license compliance, and bundle size impact",
+      "column": "review"
+    },
+    {
+      "id": "36",
+      "title": "Plan Q3 roadmap",
+      "description": "Define product priorities for Q3 including AI features, mobile app, and integrations",
+      "column": "backlog"
+    },
+    {
+      "id": "37",
+      "title": "Implement SSO login",
+      "description": "Delivered SAML 2.0 SSO integration for enterprise customers with IdP metadata support",
+      "column": "done"
+    },
+    {
+      "id": "38",
+      "title": "Research WebSocket library",
+      "description": "Compare Socket.io vs native WebSocket API for real-time collaboration features",
+      "column": "backlog"
+    },
+    {
+      "id": "39",
+      "title": "Review E2E test suite",
+      "description": "Evaluate Playwright test coverage and fix flaky tests in CI environment",
+      "column": "review"
+    },
+    {
+      "id": "40",
+      "title": "Optimize bundle size",
+      "description": "Analyze webpack bundle with tree-shaking, code splitting, and dynamic imports strategy",
+      "column": "backlog"
+    }
+  ]
+}
