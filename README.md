@@ -1,6 +1,6 @@
-# Kanban Board — Task Manager
+# Kanban Board
 
-A **drag-and-drop Kanban-style ToDo list dashboard** built with **React + TypeScript + Vite**, featuring 4 columns (Backlog, In Progress, Review, Done).
+A **drag & drop Kanban-style ToDo list dashboard** built with **React + TypeScript + Vite**, featuring 4 columns (Backlog, In Progress, Review, Done).
 
 ![React](https://img.shields.io/badge/React-19-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
@@ -10,22 +10,22 @@ A **drag-and-drop Kanban-style ToDo list dashboard** built with **React + TypeSc
 
 ---
 
-## ✨ Features
+## Features
 
-- **4-column Kanban board** — Backlog → In Progress → Review → Done
-- **Drag-and-drop** — Move tasks between columns with HTML5 native drag API + optimistic updates
-- **Full CRUD** — Create, update, and delete tasks with form validation
-- **Search** — Real-time filter by title or description (global Zustand store)
-- **Pagination** — Per-column "Load more" pagination (5 tasks per page)
-- **Caching** — React Query with 5-minute stale time and automatic cache invalidation
-- **Confirm dialog** — Safety prompt before deleting tasks
-- **Loading skeletons** — Shimmer animation while data is fetching
-- **Responsive layout** — Bootstrap grid (4 cols on desktop → 2 on tablet → 1 on mobile)
-- **Toast notifications** — Success/error feedback via react-hot-toast
+- **4-column Kanban board:** Backlog, In Progress, Review and Done.
+- **Drag & drop:** Move tasks between columns with HTML5 native drag API + optimistic updates.
+- **Full CRUD:** Create, update, and delete tasks with form validation.
+- **Search**: Realtime filter by title or description (global Zustand store)
+- **Pagination**: Per-column "Load more" pagination (5 tasks per page)
+- **Caching**: React Query with 5-minute stale time and automatic cache invalidation
+- **Confirm dialog**: Safety prompt before deleting tasks
+- **Loading skeletons**: Shimmer animation while data is fetching
+- **Responsive layout**: Bootstrap grid (4 cols on desktop, 2 on tablet and 1 on mobile)
+- **Toast notifications**: Success/error feedback via react-hot-toast
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer            | Technology                              |
 | ---------------- | --------------------------------------- |
@@ -42,16 +42,16 @@ A **drag-and-drop Kanban-style ToDo list dashboard** built with **React + TypeSc
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
 ├── components/
 │   ├── Column.tsx         # Kanban column with drop zone & pagination
-│   ├── ConfirmDialog.tsx  # Delete confirmation modal
-│   ├── Header.tsx         # App header with search & add button
+│   ├── ConfirmDialog.tsx  # Delete confirmation task
+│   ├── Header.tsx         # App header with search 
 │   ├── TaskCard.tsx       # Draggable task card with actions
-│   └── TaskForm.tsx       # Create/Edit task modal form
+│   └── TaskForm.tsx       # Create | Edit task form
 ├── hooks/
 │   └── useTasks.ts        # React Query hooks for CRUD + optimistic drag
 ├── services/
@@ -66,7 +66,7 @@ src/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -104,7 +104,7 @@ The app runs at `http://localhost:5173`.
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method   | Endpoint         | Description              |
 | -------- | ---------------- | ------------------------ |
@@ -116,7 +116,7 @@ The app runs at `http://localhost:5173`.
 
 ---
 
-## 🏗️ Build for Production
+## Build for Production
 
 ```bash
 npm run build
@@ -126,9 +126,9 @@ Output goes to the `dist/` directory, ready for static hosting.
 
 ---
 
-## 📝 Notes
+## Notes
 
-- **Drag-and-drop** uses the HTML5 native Drag and Drop API — no extra library needed.
+- **Drag & drop** uses the HTML5 native Drag and Drop API, no extra library needed.
 - **Optimistic updates** on drag: the UI moves the card instantly, then syncs with the server. If the server call fails, the card snaps back to its original column.
 - **React Query caching**: data is cached for 5 minutes. Mutations automatically invalidate the cache.
-- **Search** is global via Zustand — filters tasks across all columns simultaneously.
+- **Search** is global via Zustand, filters tasks across all columns simultaneously.
